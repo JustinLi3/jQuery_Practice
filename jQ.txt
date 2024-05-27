@@ -7,3 +7,15 @@ shortcut essentially
 -Effects 
 -Animations 
 etc.. 
+ 
+Install by creating a new js file and copying jquery code into it, link it to html and put before script 
+
+Syntax of jQuery  
+------------------------------
+$(selector).action() 
+$ - to access jQuery 
+selector - to define element  
+action - what you want to perform 
+ 
+ex: $('p').hide() 
+
