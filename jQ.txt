@@ -1,1 +1,9 @@
-Hello this is a test
+jQuery allows us to easily access dom elements & add action 
+shortcut essentially 
+
+-DOM manipulation 
+-Style manipulation 
+-Event listeners 
+-Effects 
+-Animations 
+etc.. 
