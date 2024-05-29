@@ -51,4 +51,18 @@ $('#funnyButton').click(function(){
 //NOTE, make sure you include .ready function for the website to be loaded before proceeding to use javascript/jquery
 $('document').ready(function(){
 //Include all js in here
-});
+}); 
+
+
+//FADE/SLIDE EFFECTS 
+$('.tester').click(function(){ 
+    if( $('#heading').css('display')==='none' || $('#heading').css('opacity') == '0.3'){ //use .css to grab attribute and compare 
+        $('#heading').fadeIn(); 
+    } 
+    else{
+            $('#heading').fadeTo('slow', 0.3);  //fadeTo unlike fadein and fadeOut can be customized by speed and opacity
+
+    }
+}) 
+
+//.slideToggle, once button clicked, selected item is slide out and in 
