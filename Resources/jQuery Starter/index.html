@@ -5,7 +5,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>jQuery Starter</title>
+  <title>jQuery Starter</title> 
+  <style>
+    .box{ 
+      margin-top:10px;
+      background-color: darkgoldenrod; 
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+      width: 150px; 
+      height: 150px; 
+      font-size: 20px;
+    }
+  </style>
 </head>
 
 <body>  
@@ -18,7 +28,11 @@
   </ul> 
   <button id="btn_hide">Hide</button> 
   <button id="funnyButton">Testing</button> 
-  <button class="tester">Click this to fade out the title</button>
+  <button class="tester">Click this to fade out the title</button> 
+  <div class="box">
+    Hello I am Justin and the button below activates the animation!
+  </div> 
+  <button class="btn_animate">Animate!</button>
 
   <script src="jQuery.js"></script> <!--Install by creating a new js file and copying jQ code. This MUST come before script as script may depend on our jQuery-->
   <script src="script.js"></script> 

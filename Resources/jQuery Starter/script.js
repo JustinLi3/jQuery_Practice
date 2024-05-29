@@ -65,4 +65,44 @@ $('.tester').click(function(){
     }
 }) 
 
-//.slideToggle, once button clicked, selected item is slide out and in 
+//.slideToggle, once button clicked, selected item is slide out and in  
+
+//ANIMATE 
+$(".btn_animate").click(function(){ 
+    if($(".box").css('width')==='300px'){ 
+        $(".box").animate({ 
+        width:"150px", //Different syntax for adjusting css
+        height:"150px",  
+        fontSize:'20px', 
+        }); 
+    }
+    else{
+        $(".box").animate({
+        width:"300px", //Different syntax for adjusting css
+        height:"300px", 
+        fontSize:'30px',
+    });
+    }
+}) 
+
+
+//MODIFY HTML 
+//.text() to get/set content of elements 
+//.html() to get/set HTML markup 
+//.val() to get/set values like input text/check box value/etc 
+
+
+//MODIFY CSS  
+//.attr("type","value") 
+//.addClass() 
+//.removeClass() 
+//.toggleClass() 
+//.css("attr1": val1 "attr2":val2 etc ) 
+
+
+//FORM METHODS 
+//focus, blur, change, submit 
+//.focus() - set focus in input elements such as text input/ checkboxes/ buttons 
+//.blur() - what to do once button is unchecked    
+//.change() - what to do once different option or focus to blur
+//.submit() - what to do once a form has been submitted 
